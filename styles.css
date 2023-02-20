@@ -13,5 +13,15 @@ body {
 
 .page {
     height: 100%;
-    background-color: aqua;
+    display: flex;
+}
+
+.right {
+    flex: 2;
+    background-color: red;
+}
+
+.left {
+    flex: 1;
+    background-color: forestgreen;
 }

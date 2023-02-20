@@ -26,3 +26,12 @@ body {
     background-size: cover;
     background-image: url("images/shifaaz-shamoon-9K9ipjhDdks-unsplash.jpg");
 }
+
+.logo-background {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 150px;
+}
+
+img {
+    height: 100%;
+}

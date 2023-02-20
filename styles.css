@@ -25,7 +25,10 @@ body {
 
 .right {
     flex: 2;
-    background-color: red;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
 }
 
 .left {
@@ -68,4 +71,14 @@ img {
 
 .artist-credits a {
     text-decoration: underline;
+}
+
+.forms {
+    flex: 3;
+    background-color: rebeccapurple;
+}
+
+.buttons {
+    flex: 2;
+    background-color: blue;
 }

@@ -23,5 +23,6 @@ body {
 
 .left {
     flex: 1;
-    background-color: forestgreen;
+    background-size: cover;
+    background-image: url("images/shifaaz-shamoon-9K9ipjhDdks-unsplash.jpg");
 }

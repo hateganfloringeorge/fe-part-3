@@ -76,9 +76,21 @@ img {
 .forms {
     flex: 3;
     background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
 }
 
 .buttons {
     flex: 2;
     background-color: blue;
+}
+
+.details {
+    background-color: gold;
+    flex: 1;
+}
+
+.sign-up-form {
+    background-color: aquamarine;
+    flex: 1;
 }

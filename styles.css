@@ -4,6 +4,10 @@
     src: url(/fonts/Mjolnir/Mjolnir.woff);
 }
 
+:root {
+    --general-vertical-padding: 20px;
+    --general-horizontal-padding: 30px;
+}
 * {
     margin:  0;
     padding: 0;
@@ -74,23 +78,34 @@ img {
 }
 
 .forms {
-    flex: 3;
+    flex: 2;
     background-color: rebeccapurple;
     display: flex;
     flex-direction: column;
 }
 
 .buttons {
-    flex: 2;
+    padding: var(--general-vertical-padding) var(--general-horizontal-padding);
     background-color: blue;
+    flex: 1;
 }
 
 .details {
+    padding: var(--general-vertical-padding) var(--general-horizontal-padding);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     background-color: gold;
     flex: 1;
 }
 
 .sign-up-form {
+    padding: var(--general-vertical-padding) var(--general-horizontal-padding);
     background-color: aquamarine;
     flex: 1;
+}
+
+.login-button {
+    margin-bottom: var(--general-vertical-padding);
 }

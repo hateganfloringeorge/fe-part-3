@@ -1,13 +1,15 @@
 
 @font-face {
-    font-family: noric-style;
+    font-family: nordic-style;
     src: url(/fonts/Mjolnir/Mjolnir.woff);
 }
 
 :root {
     --general-vertical-padding: 20px;
     --general-horizontal-padding: 30px;
+    --dominant-color: green;
 }
+
 * {
     margin:  0;
     padding: 0;
@@ -28,6 +30,7 @@ body {
 }
 
 .right {
+    font-family: 'Times New Roman', Times, serif;
     flex: 2;
     background-color: white;
     display: flex;
@@ -61,7 +64,7 @@ img {
 
 .logo-text {
     color: whitesmoke;
-    font-family: noric-style, sans-serif;
+    font-family: nordic-style, sans-serif;
     font-size: 70px;
     padding-top: 5px;
 }
@@ -86,7 +89,7 @@ img {
 
 .buttons {
     padding: var(--general-vertical-padding) var(--general-horizontal-padding);
-    background-color: blue;
+    background-color: tan;
     flex: 1;
 }
 
@@ -98,6 +101,8 @@ img {
     justify-content: flex-end;
     background-color: gold;
     flex: 1;
+    font-weight: bolder;
+    font-size: large;
 }
 
 .sign-up-form {
@@ -108,4 +113,12 @@ img {
 
 .login-button {
     margin-bottom: var(--general-vertical-padding);
+}
+
+.login-option {
+    font-size: medium;
+}
+
+.login-link {
+    color: var(--dominant-color);
 }

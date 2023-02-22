@@ -121,4 +121,15 @@ img {
 
 .login-link {
     color: var(--dominant-color);
+    font-weight: bold;
+}
+
+.login-button {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: var(--dominant-color);
+    border-radius: 10px;
+    padding: 15px 40px;
+    border: none;
 }

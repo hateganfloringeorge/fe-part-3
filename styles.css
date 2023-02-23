@@ -111,6 +111,14 @@ img {
     flex: 1;
 }
 
+.form-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
 .login-button {
     margin-bottom: var(--general-vertical-padding);
 }
@@ -132,4 +140,26 @@ img {
     border-radius: 10px;
     padding: 15px 40px;
     border: none;
+}
+
+.form-row {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-legend {
+    font-size: large;
+    font-weight: bold;
+}
+
+.label-on-top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.left-input {
+   margin-right: 40px;
 }

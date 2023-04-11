@@ -107,7 +107,7 @@ img {
 
 .sign-up-form {
     padding: var(--general-vertical-padding) var(--general-horizontal-padding);
-    background-color: aquamarine;
+    background-color: white;
     flex: 1;
 }
 
@@ -162,4 +162,15 @@ img {
 
 .left-input {
    margin-right: 40px;
+}
+
+input {
+    border-radius: 4px;
+    border-color: red;
+}
+
+label {
+    font-size: 0.6rem;;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
